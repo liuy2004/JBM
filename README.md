@@ -32,7 +32,7 @@
 <parent>
     <groupId>com.jbm</groupId>
     <jbm-framework-sampleependencies</artifactId>
-    <version>5.0.0-SNAPSHOT</version>
+    <version>5.1.3-SNAPSHOT</version>
 </parent>
 ```
 

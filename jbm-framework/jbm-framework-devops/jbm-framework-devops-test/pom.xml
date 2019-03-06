@@ -3,14 +3,14 @@
 	<parent>
 		<groupId>com.jbm</groupId>
 		<artifactId>jbm-framework-devops</artifactId>
-		<version>5.0.0-SNAPSHOT</version>
+		<version>5.1.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>jbm-framework-devops-test</artifactId>
 	<dependencies>
 		<dependency>
 			<groupId>com.jbm</groupId>
 			<artifactId>jbm-framework-micro-fastservice</artifactId>
-			<version>5.0.0-SNAPSHOT</version>
+			<version>5.1.3-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 	<build>

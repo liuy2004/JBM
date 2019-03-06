@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.jbm</groupId>
 		<artifactId>jbm-framework-micro</artifactId>
-		<version>5.0.0-SNAPSHOT</version>
+		<version>5.1.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>jbm-framework-micro-web</artifactId>
 	<dependencies>
@@ -52,7 +52,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-redis</artifactId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.jbm</groupId>
