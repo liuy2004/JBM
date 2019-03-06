@@ -1,12 +1,6 @@
 package com.jbm.level.test;
 
-import java.text.MessageFormat;
-import java.util.Set;
-import java.util.UUID;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-
+import jbm.framework.boot.autoconfigure.level.LevelAutoConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,11 +8,16 @@ import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.level.LevelKeyValueTemplate;
 import org.springframework.data.level.LevelTemplate;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import jbm.framework.boot.autoconfigure.level.LevelAutoConfiguration;
+import java.text.MessageFormat;
+import java.util.Set;
+import java.util.UUID;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
-@RunWith(SpringRunner.class)
+@RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootConfiguration
 @SpringBootTest(classes = { LevelAutoConfiguration.class })
 public class LeveldbTest {
